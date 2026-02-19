@@ -1,5 +1,4 @@
 print("Welcome to the Simple Quiz Game! ")
-
 score = 0   
 
 print("\n1. What is 2 + 2?")
@@ -7,14 +6,14 @@ print("A. 3")
 print("B. 4")
 print("C. 5")
 print("D. 6")
+
 answer = input("Your answer (A/B/C/D): ").upper()
 if answer == "B":
     print("Correct! ")
     score += 1
 else:
     print("Wrong!  The correct answer is B")
-
-
+    
 print("\n2. What is the Independence Day of Pakistan?")
 print("A. 14 Aug")
 print("B. 15 Aug")
@@ -26,8 +25,6 @@ if answer == "A":
     score += 1
 else:
     print("Wrong!  The correct answer is A")
-
-
 
 print("\n3. Who is the founder of Pakistan?")
 print("A. Allama Iqbal")
@@ -41,7 +38,6 @@ if answer == "C":
 else:
     print("Wrong!  The correct answer is C")
 
-
 print("\n4. How many provinces are there in Pakistan?")
 print("A. 4")
 print("B. 5")
@@ -53,8 +49,7 @@ if answer == "A":
     score += 1
 else:
     print("Wrong!  The correct answer is A")
-
-
+    
 print("\n5. Where is Mehran University located?")
 print("A. Islamabad")
 print("B. Karachi")
@@ -67,6 +62,6 @@ if answer == "C":
 else:
     print("Wrong!  The correct answer is C")
 
-
 print(f"\nYour score is {score}/5")
+
 print("Thanks for playing! ")                   
