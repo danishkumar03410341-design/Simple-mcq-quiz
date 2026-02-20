@@ -64,4 +64,10 @@ else:
 
 print(f"\nYour score is {score}/5")
 
-print("Thanks for playing! ")                   
+print("Thanks for playing! ")    
+
+if score == 5:
+    print("Excellent!  You got all answers correct!")
+elif score >= 3:
+    print("Good Job  Keep it up!")
+
